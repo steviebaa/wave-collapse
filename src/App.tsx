@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import './App.css';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { createFence } from './components/fence';
-import { createWave } from './components/wave';
-import { createGrid } from './components/grid';
+import { createFence } from './three-components/fence';
+import { createWave } from './three-components/wave';
+import { createGrid } from './three-components/grid';
 import {
 	BufferGeometry,
 	Line,
